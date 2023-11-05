@@ -6,21 +6,47 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Ludeli Reposteria</title>
       <link rel="stylesheet" href="./css/style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href= "https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
    </head>
-  
- <body>
-   <script src="index.js"></script>
+   <script src="./index.js"></script>
 
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sweet Alert</title>
+  </head>
+  <body>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script>
+     swal({
+  text: 'Ingresa tu nombre de usuario',
+  content: "input",
+  button: {
+    text: "Search!",
+    closeModal: true,
+  },
+  }) .then((name) => {
+      if (!true) throw null;
+      alert(true)
+  });
+   </script>
+
+ <body>
+   <button onclick="showSweetAlert()">Sweet Alert</button>
+   <button onclick="connectApi()">Connect Api</button>
+   
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Contacto</a>
-            <a href="#">Redes</a>
+             <a href="#"  id="uno">Inicio</a>
+            <a href="#"  id="dos">Nuestro producto</a>
+            <a href="#"  id="tres">Contacto</a>
+            <a href="#" id="cuatro">Redes</a>
        </nav>
+
        <section class="header-title">
             <h1>Los mejores postres</h1>
             <h2>con nuestras recetas</h2>
@@ -176,6 +202,7 @@
              Milshake (dulce de leche, frutilla, oreo, chocolate) $1500 | Limonada $900 | Limonada rosa $900 | Té $750 | Té saborizado $850 | Chocolatda $670 | Submarino $1100 | Exprimido $800 | licuado (frutilla, banana, frutos rojos / agua o leche) $1200 | 
            </div>
          </div>
+
        </body>
 
       <section class="clients-container">

@@ -486,16 +486,16 @@ footer{
 
 * {
     box-style: border-box;
-  }
-  
-  :root {
-    --clr-background: #eceff1;
-    --clr-white: #ffffff;
-    --clr-gray: #263238;
-  
-    --font-size: 16px;
-    --border-radius: 0.3em;
-  }
+}
+
+:root {
+  --clr-background: #eceff1;
+  --clr-white: #ffffff;
+  --clr-gray: #263238;
+
+  --font-size: 16px;
+  --border-radius: 0.2em;
+}
   
   body {
     margin: 0;
